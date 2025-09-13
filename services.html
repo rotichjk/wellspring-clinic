@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Services | WellSpring Family Clinic</title>
+  <meta name="description" content="Explore the wide range of medical services offered by WellSpring Family Clinic including general practice, immunizations, and family health." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="visually-hidden" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container nav" role="navigation" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="WellSpring Home">
+        <span class="brand__logo" aria-hidden="true">WS</span>
+        <span>WellSpring Family Clinic</span>
+      </a>
+
+      <button class="mobile-toggle" aria-controls="primary-menu" aria-expanded="false" id="menuToggle">
+        <span aria-hidden="true">☰</span> Menu
+      </button>
+
+      <ul id="primary-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="bmi.html">BMI Calculator</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section style="padding:2rem 0">
+      <h1>Our Services</h1>
+      <p class="lead">WellSpring Family Clinic provides a wide range of services to support the health and wellbeing of your whole family. Here are some of the key areas we cover:</p>
+
+      <div class="grid" style="margin-top:1.5rem">
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1631217868204-db1ed6bdd224?w=500&auto=format&fit=crop" alt="Doctor consulting a patient" />
+          <h3>General Practice</h3>
+          <p class="muted">Comprehensive consultations, diagnosis, treatment, and ongoing care for all ages.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1576765974004-1fcdcab09015?w=500&auto=format&fit=crop" alt="Nurse giving vaccine" />
+          <h3>Immunizations</h3>
+          <p class="muted">Routine childhood immunizations, flu shots, and travel vaccinations.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800&auto=format&fit=crop" alt="Happy family outdoors" />
+          <h3>Family Health</h3>
+          <p class="muted">Tailored health services for women, men, and children at every life stage.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800&auto=format&fit=crop" alt="Doctor measuring blood pressure" />
+          <h3>Health Checks</h3>
+          <p class="muted">Regular health screenings to detect and prevent potential health issues early.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1659353886973-ced1dfeab3ac?w=500&auto=format&fit=crop" alt="Female doctor smiling" />
+          <h3>Women’s Health</h3>
+          <p class="muted">Specialized services including reproductive health, pap smears, and menopause support.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=800&auto=format&fit=crop" alt="Pediatric check-up" />
+          <h3>Children’s Health</h3>
+          <p class="muted">Paediatric care for infants through adolescents, ensuring healthy growth and development.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1631651361953-56b6daff7720?w=500&auto=format&fit=crop" alt="Doctor with stethoscope" />
+          <h3>Chronic Disease Management</h3>
+          <p class="muted">Ongoing support for conditions such as diabetes, asthma, and cardiovascular disease.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?q=80&w=800&auto=format&fit=crop" alt="Person meditating for mental health" />
+          <h3>Mental Health Support</h3>
+          <p class="muted">Compassionate care, counselling referrals, and support for mental wellbeing.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container foot">
+      <p class="small">© <span id="year"></span> WellSpring Family Clinic</p>
+      <p class="small">123 Community Rd, Melbourne VIC • (03) 1234 5678 • contact@wellspringclinic.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

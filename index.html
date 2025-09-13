@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WellSpring Family Clinic | Community Health Care</title>
+  <meta name="description" content="WellSpring Family Clinic offers general medical services for families: GP, immunizations, family health. Open weekdays & Saturdays." />
+  <meta name="theme-color" content="#0b7aa8" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://example.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="visually-hidden" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container nav" role="navigation" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="WellSpring Home">
+        <span class="brand__logo" aria-hidden="true">WS</span>
+        <span>WellSpring Family Clinic</span>
+      </a>
+
+      <button class="mobile-toggle" aria-controls="primary-menu" aria-expanded="false" id="menuToggle">
+        <span aria-hidden="true">☰</span> Menu
+      </button>
+
+      <ul id="primary-menu">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="bmi.html">BMI Calculator</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" role="region" aria-label="Welcome">
+      <div class="container hero__inner">
+        <span class="badge">Community Health • Family Focused</span>
+        <h1>Quality care for your family, close to your home.</h1>
+        <p class="lead">WellSpring Family Clinic provides comprehensive general practice services, immunizations, and family health support. Our friendly team is here to help you stay healthy at every stage of life.</p>
+        <div class="quick-hours" aria-label="Clinic hours">
+          <div class="chip" role="status">Mon–Fri: 6:00 AM – 9:00 PM</div>
+          <div class="chip" role="status">Sat: 8:00 AM – 6:00 PM</div>
+          <div class="chip" role="status">Sun & Public Holidays: Closed</div>
+        </div>
+
+        <div class="cta" data-animate>
+          <div>
+            <h2 class="h3">Book a check-up or quickly check your BMI?</h2>
+            <p class="muted">Request an appointment in minutes or calculate your BMI to get quick health insights.</p>
+          </div>
+          <div class="cta__actions">
+            <a class="btn" href="appointment.html" aria-label="Request an appointment">Request Appointment</a>
+            <a class="btn secondary" href="bmi.html" aria-label="Calculate your BMI">Try BMI Calculator</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" aria-label="Featured services">
+      <h2>Featured Services</h2>
+      <div class="grid">
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1653508310081-2f59611b69cd?w=500&auto=format&fit=crop" alt="Doctor talking with a patient" />
+          <h3>General Practice</h3>
+          <p class="muted">Comprehensive consultations, health checks, and ongoing care for every family member.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1611694599979-3a4e8a1bc49b?w=500&auto=format&fit=crop" alt="Nurse preparing vaccination" />
+          <h3>Immunizations</h3>
+          <p class="muted">Routine and seasonal vaccinations in a calm, supportive environment.</p>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800&auto=format&fit=crop" alt="Family walking together" />
+          <h3>Family Health</h3>
+          <p class="muted">Women’s, men’s, and children’s health services tailored to each life stage.</p>
+        </article>
+      </div>
+    </section>
+    <section class="container" aria-label="Why choose us">
+      <div class="card" data-animate>
+        <h2>Why choose WellSpring?</h2>
+        <ul class="muted">
+          <li>Experienced, friendly clinicians focused on prevention</li>
+          <li>Accessible facilities and inclusive care for all families</li>
+          <li>Convenient hours and easy online appointment requests</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <div class="container foot">
+      <p class="small">© <span id="year"></span> WellSpring Family Clinic</p>
+      <p class="small">123 Community Rd, Melbourne VIC • (03) 1234 5678 • contact@wellspringclinic.com</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
